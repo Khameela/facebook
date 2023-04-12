@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --background-color: #f0f2f5;
+    --login-btn: #1877f2;
+    --create-btn:#42b72a;
+    
+}
+ .container {
+    display:flex;
+    background-color: var(--background-color);
+    height: 100vh;
+    padding: 220px;
+ }
+
+ .right .left {
+    width:50%;
+
+ }
+
+ .left {
+    padding-right: 40px;
+
+
+ }
+
+ .left img {
+    width: 270px;
+ }
+
+ .left p{
+    font-size: 30px;
+    font-family: serif;
+
+ }
+ .right> form {
+    background-color: #fff;
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px darkgray;
+    width: 350px;
+    
+
+ }
+
+ .right > form > input {
+    width: 100%;
+    padding:15px;
+    display:block;
+    margin-bottom:15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+
+ }
+
+ .right > form > input:focus {
+    outline:none;
+    border:1px solid var(--login-btn);
+ }
+
+ .login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--login-btn);
+    border: none;
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+
+ }
+
+ p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+ }
+
+ p a {
+    text-decoration: none;
+    color: var(--login-btn);
+ }
+ 
+ p a:hover {
+    text-decoration: underline;
+
+ }
+  
+ .create-btn {
+   padding: 15px;
+   background-color: var(--create-btn);
+   border: none;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: bold;
+   color:#fff;
+   text-align: center;
+   
+   
+   
+   
+
+ }
